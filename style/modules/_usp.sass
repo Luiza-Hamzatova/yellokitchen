@@ -1,0 +1,50 @@
+.usp
+    width: 100%
+    height: auto
+    background: url("./../image/bg.png") #000000 no-repeat 
+    background-size:  cover
+    padding: 56px 30px
+    img
+        width: 100%
+    @media(max-width:767px)
+        height: 533px
+        width: 100%
+    &__flex
+        display: flex
+        justify-content: center
+        gap:30px 
+        position: relative
+        @media(max-width:767px)
+            flex-wrap: wrap
+            gap:40px
+    &__one
+        width: 123px
+        text-align: center
+        &__bgcolor
+            width: 126px
+            height: 126px
+            border:0
+            border-radius: 50%
+            background: #ffe145
+            padding-top: 10px
+            position: absolute
+        &__frame
+            width: 126px
+            height: 126px
+            border-radius: 50%
+            border: 1px solid #B79C10 
+            z-index: 1
+            top: -20px
+            position: relative
+        &__number
+            font-family: Open Sans Condensed
+            font-size: 58px
+            font-weight: 700
+            line-height: 64px
+            letter-spacing: 0.05em
+        &__text
+            font-family: Poppins
+            font-size: 24px
+            font-weight: 600
+            line-height: 32px
+ 
